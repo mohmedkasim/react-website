@@ -1,5 +1,43 @@
-# Getting Started with Create React App
+# Getting Started with react tailwind navbar
 
+```
+npx create-react-app project-name
+```
+```
+npm install -D tailwindcss
+```
+```
+npm install @craco/craco
+```
+- create config file \craco.config.js
+```js
+module.exports = {
+    style: {
+        postcss: {
+            plugins: [
+                require('tailwindcss'),
+                require('autoprefixer')
+            ]
+        }
+    }
+}
+```
+- change lines in package.json 
+
+> **Warning**
+> css not working
+```json
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+```
+- after this command, it will generate a tailwind.config.js file
+```
+npx tailwindcss-cli@latest init
+```
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
