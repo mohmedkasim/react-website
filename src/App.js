@@ -1,13 +1,14 @@
-
-import './App.css';
-import NavBar from './components/NavBar';
-import SideBar from './sideBar';
+import "./App.css";
+import Hero from "./components/Hero";
+import NavBar from "./components/NavBar";
+import SideBar from "./sideBar";
 
 function App() {
   return (
-    <div className="">
-      <NavBar/>
-      {/* <SideBar/> */}
+    <div>
+      <NavBar />
+      <SideBar/>
+      <Hero />
     </div>
   );
 }
