@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-color: #3E3E3F
+}
 @layer components {
     .sidebar-icon {
         @apply relative flex items-center justify-center w-12 h-12 mx-auto mt-2 mb-2 text-green-500 transition-all duration-300 ease-linear bg-gray-800 shadow-lg cursor-pointer hover:bg-green-600 hover:text-white rounded-3xl hover:rounded-xl;
