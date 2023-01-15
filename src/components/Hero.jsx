@@ -11,7 +11,7 @@ function Hero() {
         <h1 className="text-4xl font-bold text-center md:text-7xl sm:text-6xl md:py-6">
           Grow with data.
         </h1>
-        <div className="flex items-center justify-center ">
+        <div className="flex items-center justify-center animate-bounce">
           <p className="py-4 text-xl font-bold md:text-5xl sm:text-4xl">
             Fast, flexible financing for
           </p>
@@ -28,7 +28,7 @@ function Hero() {
             Monitor your data analytics to increase revenue for BTB, BTC,& SASS
             platforms.
           </p>
-          <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black justify-center ">
+          <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black justify-center transition duration-500 hover:scale-110">
             Get Started
           </button>
         </div>
