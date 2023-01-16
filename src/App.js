@@ -1,5 +1,6 @@
 import "./App.css";
 import { Analytics } from "./components/Analytics";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import Prices from "./components/Prices";
@@ -10,11 +11,12 @@ function App() {
   return (
     <div>
       <NavBar />
-      <SideBar />
+      {/* <SideBar /> */}
       <Hero />
       <Analytics />
       <Services />
       <Prices />
+      <Footer/>
     </div>
   );
 }
